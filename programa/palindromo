@@ -1,0 +1,16 @@
+    public boolean palindromo() {
+		  int b=frase.length();
+			
+		 b=b-1;
+		    String  div1 ="";
+		 for (int i= 0;i<frase.length();i++){
+
+		 
+			 	div1 = div1 +frase.charAt(b);
+		       b--;
+	
+		}
+
+    	boolean pal = div1.equals(frase);
+    	return pal;
+    }
