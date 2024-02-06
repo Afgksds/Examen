@@ -1,0 +1,10 @@
+	public String vocalesMayuscula() {
+		String voca= "";
+		voca = voca + frase;
+		voca = voca.replace("a", "A");
+		voca= voca.replace("e", "E");
+		voca = voca.replace("i", "I");
+		voca = voca.replace("o", "O");
+		voca = voca.replace("u", "U");
+	return voca;
+	}
