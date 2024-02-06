@@ -1,7 +1,0 @@
-	public String primeraMayuscula() {
-		 div1 = frase.substring(0,1);
-		 div4 = frase.substring(1,frase.length());
-		 div2 = div1.toUpperCase();
-		 String prim = div2 + div4;
-		 return prim;
-	}
